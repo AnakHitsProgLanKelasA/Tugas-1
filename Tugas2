@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class clsperpustaka {
+class clsperpustakaan {
 	private :
 		string nama;
 		string penulis;
@@ -28,14 +28,11 @@ class clsperpustaka {
 		int getTahun (){
 			return tahun;
 		}
-		string getKategori (){
-			return kategori;
-		}
 		void cetak (string kategori){
-			cout<<"nama buku :"<<endl;
-			cout<<"nama penulis :"<<endl;
-			cout<<"tahun terbit :"<<endl;
-			cout<<"kategori :"<<endl;
+			cout<<"nama buku :"<<nama<<endl;
+			cout<<"nama penulis :"<<penulis<<endl;
+			cout<<"tahun terbit :"<<tahun<<endl;
+			cout<<"kategori :"<<kategori<<endl;
 		}
 };
 int main(){
@@ -53,25 +50,46 @@ int main(){
 	
 	switch (opsi) {
 		case 1 : 
-		cout<<"TEKNOLOGI"<<endl;
-		break;
+		{
+		
+		string kategori="TEKNOLOGI";
+	    clsperpustakaan *buku1 = new clsperpustakaan ();
+	    buku1->setNama("fajar");
+	    buku1->setPenulis("jankrik");
+	    buku1->setTahun(1998);
+	    buku1->setKategori(kategori);
+	    buku1->cetak(kategori);
+	    break;
+		}
 		case 2 : 
-		cout<<"FILSAFAT"<<endl;
+		{
+		string kategori="FILSAFAT";
 		break;
+		}
 		case 3 : 
-		cout<<"SEJARAH"<<endl;
+		{
+			string kategori="SEJARAH";
+		}
 		break;
 		case 4 : 
-		cout<<"AGAMA"<<endl;
+		{
+			string kategori="AGAMA";
+		}
 		break;
 		case 5 : 
-		cout<<"PSIKOLOGI"<<endl;
+		{
+			string kategori="PSIKOLOGI";
+		}
 		break;
 		case 6 : 
-		cout<<"POLITIK"<<endl;
+		{
+			string kategori="POLITIK";
+		}
 		break;
 		case 7 : 
-		cout<<"FIKSI"<<endl;
+		{
+			string kategori="FIKSI";
+		}
 		break;
-	}
+}
 }
