@@ -174,7 +174,7 @@ int main(){
  	    buku5->cetak(kategori);
 	    cout<<endl;
  	    break;
- 	    
+ 	    }
  	    case 4 : 
  		{
 		string kategori="AGAMA";
