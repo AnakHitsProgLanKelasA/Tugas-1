@@ -29,23 +29,24 @@ class clsperpustakaan {
 			return tahun;
 		}
 		void cetak (string kategori){
-			cout<<"nama buku :"<<nama<<endl;
-			cout<<"nama penulis :"<<penulis<<endl;
-			cout<<"tahun terbit :"<<tahun<<endl;
-			cout<<"kategori :"<<kategori<<endl;
+			cout<<"Nama buku : "<<nama<<endl;
+			cout<<"Nama penulis : "<<penulis<<endl;
+			cout<<"Tahun terbit : "<<tahun<<endl;
+			cout<<"Kategori : "<<kategori<<endl;
 		}
 };
 int main(){
-	cout<<"1. teknologi :"<<endl;
-	cout<<"2. filsafat :"<<endl;
-	cout<<"3. sejarah :"<<endl;
-	cout<<"4. agama :"<<endl;
-	cout<<"5. psikologi :"<<endl;
-	cout<<"6. politik :"<<endl;
-	cout<<"7. fiksi :"<<endl;
+	cout<<"Pilihan Kategori "<<endl;
+	cout<<"1. Teknologi : "<<endl;
+	cout<<"2. Filsafat : "<<endl;
+	cout<<"3. Sejarah : "<<endl;
+	cout<<"4. Agama : "<<endl;
+	cout<<"5. Psikologi : "<<endl;
+	cout<<"6. Politik : "<<endl;
+	cout<<"7. Fiksi : "<<endl;
 	
 	int opsi;
-	cout<<"masukan pilihan kategoti :";
+	cout<<"Masukan pilihan kategori : ";
 	cin>>opsi;
 	
 	switch (opsi) {
@@ -140,72 +141,69 @@ int main(){
 	    buku1->setTahun(2017);
 	    buku1->setKategori(kategori);
 	    buku1->cetak(kategori);
-	    cout<<endl;
-	    
+	    cout<< endl;
 	    clsperpustakaan *buku2 = new clsperpustakaan ();
 	    buku2->setNama("Gagalnya Historiografi Indonesiasentris? ");
 	    buku2->setPenulis("Bambang Purwanto");
 	    buku2->setTahun(2006);
  	    buku2->setKategori(kategori);
  	    buku2->cetak(kategori);
- 	    cout<<endl;
-	    
+	    cout<< endl;
  	    clsperpustakaan *buku3 = new clsperpustakaan ();
 	    buku3->setNama("Upacara Ruwatan Tradisi Surakarta");
 	    buku3->setPenulis("Lies Mariani");
 	    buku3->setTahun(2017);
  	    buku3->setKategori(kategori);
 	    buku3->cetak(kategori);
-	    cout<<endl;
-	    
+	    cout<< endl;
 	    clsperpustakaan *buku4 = new clsperpustakaan ();
 	    buku4->setNama("Timor Timur Gagalnya Sebuah Diplomasi");
 	    buku4->setPenulis("Basilio Dias Araujo,SS.,MA.");
 	    buku4->setTahun(2014);
  	    buku4->setKategori(kategori);
  	    buku4->cetak(kategori);
- 	    cout<<endl;
-	    
+	    cout<< endl;
  	    clsperpustakaan *buku5 = new clsperpustakaan ();
 	    buku5->setNama("Sejarah Pelayan Nusantara");
 	    buku5->setPenulis("Ms Ardison");
 	    buku5->setTahun(2016);
  	    buku5->setKategori(kategori);
  	    buku5->cetak(kategori);
-	    cout<<endl;
+	    cout<< endl;
  	    break;
  	    }
  	    case 4 : 
  		{
 		string kategori="AGAMA";
+	    cout<< endl;
  	    clsperpustakaan *buku1 = new clsperpustakaan ();
 	    buku1->setNama("Sejarah Bangsa Mesir");
 	    buku1->setPenulis("DR.As-Sayyid Abdul Aziz Salim");
 	    buku1->setTahun(2008);
  	    buku1->setKategori(kategori);
  	    buku1->cetak(kategori);
- 	    
+	    cout<< endl;
  	    clsperpustakaan *buku2 = new clsperpustakaan ();
 	    buku2->setNama("Fikih Doa");
 	    buku2->setPenulis("Syeikh Musthafa bin Al-Adawi");
 	    buku2->setTahun(2013);
  	    buku2->setKategori(kategori);
  	    buku2->cetak(kategori);
-	   
+	    cout<< endl;
  	    clsperpustakaan *buku3 = new clsperpustakaan ();
 	    buku3->setNama("Fikih Doa");
 	    buku3->setPenulis("Syeikh Musthafa bin Al-Adawi");
 	    buku3->setTahun(2013);
  	    buku3->setKategori(kategori);
-	    buku3->cetak(kategori);  
-	    
+	    buku3->cetak(kategori); 
+	    cout<< endl;
  	    clsperpustakaan *buku4 = new clsperpustakaan ();
 	    buku4->setNama("Sudah Munculkah Dajjal Ya'juj dan Ma'juj?");
 	    buku4->setPenulis("Syaikh Abdurrahman As-Sa'di");
 	    buku4->setTahun(2015);
  	    buku4->setKategori(kategori);
  	    buku4->cetak(kategori);
-	    
+	    cout<< endl;
  	    clsperpustakaan *buku5 = new clsperpustakaan ();
 	    buku5->setNama("Motivasi Islami");
 	    buku5->setPenulis("Abu Rizky Tazaka");
@@ -217,35 +215,35 @@ int main(){
 		case 5 : 
 		{
 		string kategori="PSIKOLOGI";
-	    cout<<"-------------------"<< endl;
+	    cout<< endl;
 	    clsperpustakaan *buku1 = new clsperpustakaan ();
 	    buku1->setNama("Psikologi Olahraga");
 	    buku1->setPenulis("Komarudin, Dr., M.Pd.");
 	    buku1->setTahun(2015);
 	    buku1->setKategori(kategori);
 	    buku1->cetak(kategori);
-	    cout<<"-------------------"<< endl;
+	    cout<< endl;
 	    clsperpustakaan *buku2 = new clsperpustakaan ();
 	    buku2->setNama("Psikologi Korupsi ");
 	    buku2->setPenulis("ZAINAL ABIDIN");
 	    buku2->setTahun(2015);
 	    buku2->setKategori(kategori);
 	    buku2->cetak(kategori);
-	    cout<<"-------------------"<< endl;
+	    cout<< endl;
 	    clsperpustakaan *buku3 = new clsperpustakaan ();
 	    buku3->setNama("Psikologi Komunikasi Dakwah Suatu Pengantar");
 	    buku3->setPenulis("Dr. Bambang S.Ma'arif, M.Si.");
 	    buku3->setTahun(2016);
 	    buku3->setKategori(kategori);
 	    buku3->cetak(kategori);
-	    cout<<"-------------------"<< endl;
+	    cout<< endl;
 	    clsperpustakaan *buku4 = new clsperpustakaan ();
 	    buku4->setNama("Psikolinguistik");
 	    buku4->setPenulis("Prof. Dr. Henry Guntur Tarigan");
 	    buku4->setTahun(2014);
 	    buku4->setKategori(kategori);
 	    buku4->cetak(kategori);
-	    cout<<"-------------------"<< endl;
+	    cout<< endl;
 	    clsperpustakaan *buku5 = new clsperpustakaan ();
 	    buku5->setNama("Metodologi Penelitian Kuantitatif dan Kualitatif Dalam Psikologi ");
 	    buku5->setPenulis("A. Supratiknya");
@@ -257,35 +255,35 @@ int main(){
 		case 6 : 
 		{
 		string kategori="POLITIK";
-	    cout<<"-------------------"<< endl;
+	    cout<< endl;
 	    clsperpustakaan *buku1 = new clsperpustakaan ();
 	    buku1->setNama("Komunikasi Politik Suatu Pengantar");
 	    buku1->setPenulis("Zulkarimein Nasution");
 	    buku1->setTahun(1990);
 	    buku1->setKategori(kategori);
 	    buku1->cetak(kategori);
-	    cout<<"-------------------"<< endl;
+	    cout<< endl;
 	    clsperpustakaan *buku2 = new clsperpustakaan ();
 	    buku2->setNama("Pengantar Ilmu Politik");
 	    buku2->setPenulis("Prof. Mr. Dr. J. Barents");
 	    buku2->setTahun(1983);
 	    buku2->setKategori(kategori);
 	    buku2->cetak(kategori);
-	    cout<<"-------------------"<< endl;
+	    cout<< endl;
 	    clsperpustakaan *buku3 = new clsperpustakaan ();
 	    buku3->setNama("Pendidikan Politik Bangsa");
 	    buku3->setPenulis("Suhardiman, dkk.");
 	    buku3->setTahun(1984);
 	    buku3->setKategori(kategori);
 	    buku3->cetak(kategori);
-	    cout<<"-------------------"<< endl;
+	    cout<< endl;
 	    clsperpustakaan *buku4 = new clsperpustakaan ();
 	    buku4->setNama("Berfilsafat Menuju Ilmu Filsafat Pancasila");
 	    buku4->setPenulis("Sunarjo Wreksosuhardjo, Drs., Prof");
 	    buku4->setTahun(2014);
 	    buku4->setKategori(kategori);
 	    buku4->cetak(kategori);
-	    cout<<"-------------------"<< endl;
+	    cout<< endl;
 	    clsperpustakaan *buku5 = new clsperpustakaan ();
 	    buku5->setNama("Berani Mengubah				 ");
 	    buku5->setPenulis("PANDJI PRAGIWAKSONO");
@@ -297,8 +295,43 @@ int main(){
 		break;
 		case 7 : 
 		{
-			string kategori="FIKSI";
+		string kategori="FIKSI";
+	    cout<< endl;
+	    clsperpustakaan *buku1 = new clsperpustakaan ();
+	    buku1->setNama("STM (Sekolah Tanpa Masalah)");
+	    buku1->setPenulis("Rahmet");
+	    buku1->setTahun(2016);
+	    buku1->setKategori(kategori);
+	    buku1->cetak(kategori);
+	    cout<< endl;
+	    clsperpustakaan *buku2 = new clsperpustakaan ();
+	    buku2->setNama("Lelah Dengan Drama");
+	    buku2->setPenulis("Aron Ashab");
+	    buku2->setTahun(2017);
+	    buku2->setKategori(kategori);
+	    buku2->cetak(kategori);
+	    cout<< endl;
+	    clsperpustakaan *buku3 = new clsperpustakaan ();
+	    buku3->setNama("Rahasia Tondi Ayahku ");
+	    buku3->setPenulis("R. Mulia Nasution");
+	    buku3->setTahun(2012);
+	    buku3->setKategori(kategori);
+	    buku3->cetak(kategori);
+	    cout<< endl;
+	    clsperpustakaan *buku4 = new clsperpustakaan ();
+	    buku4->setNama("Kailasa: Jejak Tanah Surga Yang Terluka");
+	    buku4->setPenulis("Jusuf A.N.");
+	    buku4->setTahun(2016);
+	    buku4->setKategori(kategori);
+	    buku4->cetak(kategori);
+	    cout<< endl;
+	    clsperpustakaan *buku5 = new clsperpustakaan ();
+	    buku5->setNama("Sang Penakluk Kutukan");
+	    buku5->setPenulis("Arul Chandrana");
+	    buku5->setTahun(2016);
+	    buku5->setKategori(kategori);
+	    buku5->cetak(kategori);
+	    break;
 		}
-		break;
 }
 }
