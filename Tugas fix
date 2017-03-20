@@ -131,16 +131,89 @@ int main(){
 	    cout<<endl;	
 		break;
 		}
-		case 3 : 
+			case 3 : 
 		{
-			string kategori="SEJARAH";
-		}
-		break;
-		case 4 : 
-		{
-			string kategori="AGAMA";
-		}
-		break;
+		string kategori="SEJARAH";
+ 	    clsperpustakaan *buku1 = new clsperpustakaan ();
+	    buku1->setNama("Filosofi Rumah Jawa");
+	    buku1->setPenulis("Asti Musman");
+	    buku1->setTahun(2017);
+	    buku1->setKategori(kategori);
+	    buku1->cetak(kategori);
+	    cout<<endl;
+	    
+	    clsperpustakaan *buku2 = new clsperpustakaan ();
+	    buku2->setNama("Gagalnya Historiografi Indonesiasentris? ");
+	    buku2->setPenulis("Bambang Purwanto");
+	    buku2->setTahun(2006);
+ 	    buku2->setKategori(kategori);
+ 	    buku2->cetak(kategori);
+ 	    cout<<endl;
+	    
+ 	    clsperpustakaan *buku3 = new clsperpustakaan ();
+	    buku3->setNama("Upacara Ruwatan Tradisi Surakarta");
+	    buku3->setPenulis("Lies Mariani");
+	    buku3->setTahun(2017);
+ 	    buku3->setKategori(kategori);
+	    buku3->cetak(kategori);
+	    cout<<endl;
+	    
+	    clsperpustakaan *buku4 = new clsperpustakaan ();
+	    buku4->setNama("Timor Timur Gagalnya Sebuah Diplomasi");
+	    buku4->setPenulis("Basilio Dias Araujo,SS.,MA.");
+	    buku4->setTahun(2014);
+ 	    buku4->setKategori(kategori);
+ 	    buku4->cetak(kategori);
+ 	    cout<<endl;
+	    
+ 	    clsperpustakaan *buku5 = new clsperpustakaan ();
+	    buku5->setNama("Sejarah Pelayan Nusantara");
+	    buku5->setPenulis("Ms Ardison");
+	    buku5->setTahun(2016);
+ 	    buku5->setKategori(kategori);
+ 	    buku5->cetak(kategori);
+	    cout<<endl;
+ 	    break;
+ 	    
+ 	    case 4 : 
+ 		{
+		string kategori="AGAMA";
+ 	    clsperpustakaan *buku1 = new clsperpustakaan ();
+	    buku1->setNama("Sejarah Bangsa Mesir");
+	    buku1->setPenulis("DR.As-Sayyid Abdul Aziz Salim");
+	    buku1->setTahun(2008);
+ 	    buku1->setKategori(kategori);
+ 	    buku1->cetak(kategori);
+ 	    
+ 	    clsperpustakaan *buku2 = new clsperpustakaan ();
+	    buku2->setNama("Fikih Doa");
+	    buku2->setPenulis("Syeikh Musthafa bin Al-Adawi");
+	    buku2->setTahun(2013);
+ 	    buku2->setKategori(kategori);
+ 	    buku2->cetak(kategori);
+	   
+ 	    clsperpustakaan *buku3 = new clsperpustakaan ();
+	    buku3->setNama("Fikih Doa");
+	    buku3->setPenulis("Syeikh Musthafa bin Al-Adawi");
+	    buku3->setTahun(2013);
+ 	    buku3->setKategori(kategori);
+	    buku3->cetak(kategori);  
+	    
+ 	    clsperpustakaan *buku4 = new clsperpustakaan ();
+	    buku4->setNama("Sudah Munculkah Dajjal Ya'juj dan Ma'juj?");
+	    buku4->setPenulis("Syaikh Abdurrahman As-Sa'di");
+	    buku4->setTahun(2015);
+ 	    buku4->setKategori(kategori);
+ 	    buku4->cetak(kategori);
+	    
+ 	    clsperpustakaan *buku5 = new clsperpustakaan ();
+	    buku5->setNama("Motivasi Islami");
+	    buku5->setPenulis("Abu Rizky Tazaka");
+	    buku5->setTahun(2013);
+ 	    buku5->setKategori(kategori);
+ 	    buku5->cetak(kategori);
+ 	    break;
+	    }
 		case 5 : 
 		{
 		string kategori="PSIKOLOGI";
