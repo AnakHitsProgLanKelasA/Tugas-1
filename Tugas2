@@ -36,7 +36,7 @@ class clsperpustakaan {
 		}
 };
 int main(){
-	cout<<"1. teknologi :"<<endl;
+	cout<<"1. Teknologi :"<<endl;
 	cout<<"2. filsafat :"<<endl;
 	cout<<"3. sejarah :"<<endl;
 	cout<<"4. agama :"<<endl;
