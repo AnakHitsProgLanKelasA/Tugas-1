@@ -143,12 +143,83 @@ int main(){
 		break;
 		case 5 : 
 		{
-			string kategori="PSIKOLOGI";
+		string kategori="PSIKOLOGI";
+	    cout<<"-------------------"<< endl;
+	    clsperpustakaan *buku1 = new clsperpustakaan ();
+	    buku1->setNama("Psikologi Olahraga");
+	    buku1->setPenulis("Komarudin, Dr., M.Pd.");
+	    buku1->setTahun(2015);
+	    buku1->setKategori(kategori);
+	    buku1->cetak(kategori);
+	    cout<<"-------------------"<< endl;
+	    clsperpustakaan *buku2 = new clsperpustakaan ();
+	    buku2->setNama("Psikologi Korupsi ");
+	    buku2->setPenulis("ZAINAL ABIDIN");
+	    buku2->setTahun(2015);
+	    buku2->setKategori(kategori);
+	    buku2->cetak(kategori);
+	    cout<<"-------------------"<< endl;
+	    clsperpustakaan *buku3 = new clsperpustakaan ();
+	    buku3->setNama("Psikologi Komunikasi Dakwah Suatu Pengantar");
+	    buku3->setPenulis("Dr. Bambang S.Ma'arif, M.Si.");
+	    buku3->setTahun(2016);
+	    buku3->setKategori(kategori);
+	    buku3->cetak(kategori);
+	    cout<<"-------------------"<< endl;
+	    clsperpustakaan *buku4 = new clsperpustakaan ();
+	    buku4->setNama("Psikolinguistik");
+	    buku4->setPenulis("Prof. Dr. Henry Guntur Tarigan");
+	    buku4->setTahun(2014);
+	    buku4->setKategori(kategori);
+	    buku4->cetak(kategori);
+	    cout<<"-------------------"<< endl;
+	    clsperpustakaan *buku5 = new clsperpustakaan ();
+	    buku5->setNama("Metodologi Penelitian Kuantitatif dan Kualitatif Dalam Psikologi ");
+	    buku5->setPenulis("A. Supratiknya");
+	    buku5->setTahun(2015);
+	    buku5->setKategori(kategori);
+	    buku5->cetak(kategori);
+	    break;
 		}
-		break;
 		case 6 : 
 		{
-			string kategori="POLITIK";
+		string kategori="POLITIK";
+	    cout<<"-------------------"<< endl;
+	    clsperpustakaan *buku1 = new clsperpustakaan ();
+	    buku1->setNama("Komunikasi Politik Suatu Pengantar");
+	    buku1->setPenulis("Zulkarimein Nasution");
+	    buku1->setTahun(1990);
+	    buku1->setKategori(kategori);
+	    buku1->cetak(kategori);
+	    cout<<"-------------------"<< endl;
+	    clsperpustakaan *buku2 = new clsperpustakaan ();
+	    buku2->setNama("Pengantar Ilmu Politik");
+	    buku2->setPenulis("Prof. Mr. Dr. J. Barents");
+	    buku2->setTahun(1983);
+	    buku2->setKategori(kategori);
+	    buku2->cetak(kategori);
+	    cout<<"-------------------"<< endl;
+	    clsperpustakaan *buku3 = new clsperpustakaan ();
+	    buku3->setNama("Pendidikan Politik Bangsa");
+	    buku3->setPenulis("Suhardiman, dkk.");
+	    buku3->setTahun(1984);
+	    buku3->setKategori(kategori);
+	    buku3->cetak(kategori);
+	    cout<<"-------------------"<< endl;
+	    clsperpustakaan *buku4 = new clsperpustakaan ();
+	    buku4->setNama("Berfilsafat Menuju Ilmu Filsafat Pancasila");
+	    buku4->setPenulis("Sunarjo Wreksosuhardjo, Drs., Prof");
+	    buku4->setTahun(2014);
+	    buku4->setKategori(kategori);
+	    buku4->cetak(kategori);
+	    cout<<"-------------------"<< endl;
+	    clsperpustakaan *buku5 = new clsperpustakaan ();
+	    buku5->setNama("Berani Mengubah				 ");
+	    buku5->setPenulis("PANDJI PRAGIWAKSONO");
+	    buku5->setTahun(2012);
+	    buku5->setKategori(kategori);
+	    buku5->cetak(kategori);
+	    break;
 		}
 		break;
 		case 7 : 
