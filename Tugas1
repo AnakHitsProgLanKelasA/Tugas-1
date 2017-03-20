@@ -1,0 +1,77 @@
+#include <iostream>
+using namespace std;
+class clsperpustaka {
+	private :
+		string nama;
+		string penulis;
+		int tahun;
+		string kategori;
+	public :
+		void setNama (string n){
+			nama=n;
+		}
+		void setPenulis (string p){
+			penulis=p;
+		}
+		void setTahun (int t){
+			tahun=t;
+		}
+		void setKategori (string k){
+			kategori=k;
+		}
+		string getNama (){
+			return nama;
+		}
+		string getPenulis (){
+			return penulis;
+		}
+		int getTahun (){
+			return tahun;
+		}
+		string getKategori (){
+			return kategori;
+		}
+		void cetak (string kategori){
+			cout<<"nama buku :"<<endl;
+			cout<<"nama penulis :"<<endl;
+			cout<<"tahun terbit :"<<endl;
+			cout<<"kategori :"<<endl;
+		}
+};
+int main(){
+	cout<<"1. teknologi :"<<endl;
+	cout<<"2. filsafat :"<<endl;
+	cout<<"3. sejarah :"<<endl;
+	cout<<"4. agama :"<<endl;
+	cout<<"5. psikologi :"<<endl;
+	cout<<"6. politik :"<<endl;
+	cout<<"7. fiksi :"<<endl;
+	
+	int opsi;
+	cout<<"masukan pilihan kategoti :";
+	cin>>opsi;
+	
+	switch (opsi) {
+		case 1 : 
+		cout<<"TEKNOLOGI"<<endl;
+		break;
+		case 2 : 
+		cout<<"FILSAFAT"<<endl;
+		break;
+		case 3 : 
+		cout<<"SEJARAH"<<endl;
+		break;
+		case 4 : 
+		cout<<"AGAMA"<<endl;
+		break;
+		case 5 : 
+		cout<<"PSIKOLOGI"<<endl;
+		break;
+		case 6 : 
+		cout<<"POLITIK"<<endl;
+		break;
+		case 7 : 
+		cout<<"FIKSI"<<endl;
+		break;
+	}
+}
