@@ -51,19 +51,84 @@ int main(){
 	switch (opsi) {
 		case 1 : 
 		{
-		
 		string kategori="TEKNOLOGI";
+		cout<<endl;	
 	    clsperpustakaan *buku1 = new clsperpustakaan ();
-	    buku1->setNama("fajar");
-	    buku1->setPenulis("jankrik");
-	    buku1->setTahun(1998);
+	    buku1->setNama("teknologi informasi dan komunikasi");
+	    buku1->setPenulis("iwan D santoso");
+	    buku1->setTahun(2010);
 	    buku1->setKategori(kategori);
 	    buku1->cetak(kategori);
+	    cout<<endl;	
+	    clsperpustakaan *buku2 = new clsperpustakaan ();
+	    buku2->setNama("Generasi Cyber");
+	    buku2->setPenulis("Muh. Imad ");
+	    buku2->setTahun(2009);
+	    buku2->setKategori(kategori);
+	    buku2->cetak(kategori);
+	    cout<<endl;	
+	    clsperpustakaan *buku3 = new clsperpustakaan ();
+	    buku3->setNama("Paduan Coding");
+	    buku3->setPenulis("Jati Kuncoro ");
+	    buku3->setTahun(2005);
+	    buku3->setKategori(kategori);
+	    buku3->cetak(kategori);
+	    cout<<endl;	
+	    clsperpustakaan *buku4 = new clsperpustakaan ();
+	    buku4->setNama("Komunikasi Dan Jaringan");
+	    buku4->setPenulis("Ammar Jannah ");
+	    buku4->setTahun(2000);
+	    buku4->setKategori(kategori);
+	    buku4->cetak(kategori);
+	    cout<<endl;	
+	    clsperpustakaan *buku5 = new clsperpustakaan ();
+	    buku5->setNama("Esiklopedia : Pesawat Terbang");
+	    buku5->setPenulis("Mucthar Ahmad dan Marsel Petu ");
+	    buku5->setTahun(2009);
+	    buku5->setKategori(kategori);
+	    buku5->cetak(kategori);
+	    cout<<endl;	
 	    break;
 		}
 		case 2 : 
 		{
 		string kategori="FILSAFAT";
+		cout<<endl;	
+	    clsperpustakaan *buku1 = new clsperpustakaan ();
+	    buku1->setNama("Rekonstruksi Pemikiran");
+	    buku1->setPenulis("Ahmad Bustomi");
+	    buku1->setTahun(1998);
+	    buku1->setKategori(kategori);
+	    buku1->cetak(kategori);
+	    cout<<endl;	
+	    clsperpustakaan *buku2 = new clsperpustakaan ();
+	    buku2->setNama("Trend Pluralisme");
+	    buku2->setPenulis("Wildan Sanawi ");
+	    buku2->setTahun(1996);
+	    buku2->setKategori(kategori);
+	    buku2->cetak(kategori);
+	    cout<<endl;	
+	    clsperpustakaan *buku3 = new clsperpustakaan ();
+	    buku3->setNama("Madilog");
+	    buku3->setPenulis("Tan Malaka ");
+	    buku3->setTahun(1999);
+	    buku3->setKategori(kategori);
+	    buku3->cetak(kategori);
+	    cout<<endl;	
+	    clsperpustakaan *buku4 = new clsperpustakaan ();
+	    buku4->setNama("estetika islam");
+	    buku4->setPenulis("olivier loisman ");
+	    buku4->setTahun(1980);
+	    buku4->setKategori(kategori);
+	    buku4->cetak(kategori);
+	    cout<<endl;	
+	    clsperpustakaan *buku5 = new clsperpustakaan ();
+	    buku5->setNama("Relativitas Kebenaran");
+	    buku5->setPenulis("Ali Hab ");
+	    buku5->setTahun(1970);
+	    buku5->setKategori(kategori);
+	    buku5->cetak(kategori);
+	    cout<<endl;	
 		break;
 		}
 		case 3 : 
